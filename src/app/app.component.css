@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    background: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    height: 150vh;
+    position: relative;
+    animation: bg-color 1s linear 0s infinite alternate;
+
+}
+
+@keyframes bg-color {
+    from {
+        background: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+    }
+    50% {
+        background:linear-gradient(90deg, rgba(192, 124, 192, 1) 1%, rgba(56, 56, 156, 1) 100%);
+    }
+    to{
+        background:linear-gradient(90deg, rgba(42, 9, 35, 1) 0%, rgba(216, 222, 220, 0.85) 100%);
+    }
+    
+}
+
+
+.mt-b {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pd {
+    padding: 20px;
+}
+
+
+
+.github-logo{
+    position: absolute;
+    top: 0;
+}
+
+.github-logo img{
+    width: 80%;
+    height: auto;
+    opacity: .3;
+}
+
+.container{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input {
+    padding: 15px 30px;
+    width: 500px;
+    border-radius: 35px;
+    outline: none;
+    border: 2px solid white;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+button a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+button:hover{
+    opacity: .7;
+}
+
+.result-container{
+  background-color: rgb(228, 225, 222);
+  opacity: .7;
+
+  padding: 30px;
+  border-radius: 30px;
+  color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+.user-desc img{
+    width: 300px;
+
+}
+
+span{
+    background-color: gainsboro;
+    border: 1px solid gray;
+    padding: 2px 10px;
+    border-radius: 30px;
+    font-size: .8em;
+
+}
+
+.repos{
+    border-bottom: 1px solid black;
+}

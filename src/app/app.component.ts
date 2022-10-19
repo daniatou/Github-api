@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My-ang-app';
+  username: string = '';
+
+  onSubmit(){
+    console.log('Hello', this.username)
+
+    if (this.username.length) {
+      
+    } else {
+      alert('Field is empty');
+    } 
+
+  }
 }
+
+
